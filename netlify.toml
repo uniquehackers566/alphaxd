@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[functions]
+  directory = "netlify/functions"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+
+[template.environment]
+  NODE_VERSION = "20"
+  NEXT_PUBLIC_SITE_URL = "https://your-site.netlify.app"
